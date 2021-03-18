@@ -60,7 +60,7 @@ public class Main {
 
         System.out.println("---Задание 4.4---");
         long d = System.nanoTime();
-        Queue<Integer> catPriorityQueue = new PriorityQueue<>();
+        PriorityQueue<Integer> catPriorityQueue = new PriorityQueue<>();
         catPriorityQueue.add(2);
         catPriorityQueue.add(3);
         catPriorityQueue.add(5);
